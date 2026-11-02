@@ -2,20 +2,23 @@
 
 <img src="./assets/profile-hero.svg" alt="SVR Forge | Vignesh Raja Sundararajan | DevOps & Platform Engineering" width="100%"/>
 
-### SVR / BUILD · SECURE · SCALE
+### Cloud infrastructure. Reliable delivery. Practical open-source engineering.
 
-**SVR Forge** — my independent open-source engineering lab for practical DevOps, cloud and developer tooling.
+**SVR Forge** — an independent engineering identity for infrastructure, developer productivity and trustworthy automation.
 
-[![DevOps Lab CI](https://github.com/devopsvikki/devopsvikki/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/devopsvikki/devopsvikki/actions/workflows/labs-tests.yml)
+[![DevOps Lab CI](https://github.com/svrforge/devopsvikki/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/svrforge/devopsvikki/actions/workflows/labs-tests.yml)
 [![Original tools](https://img.shields.io/badge/original%20tools-5-28b5ae?style=flat-square)](./labs/)
 [![Open source](https://img.shields.io/badge/license-MIT-176b78?style=flat-square)](./LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-devopsvikki-182b42?style=flat-square&logo=github)](https://github.com/devopsvikki)
+[![GitHub](https://img.shields.io/badge/GitHub-svrforge-182b42?style=flat-square&logo=github)](https://github.com/svrforge)
 
 </div>
 
 ## About me
 
-I'm **Vignesh Raja Sundararajan**, a DevOps and Platform Engineer with **3+ years of experience** focused on infrastructure reliability, CI/CD automation, deployment operations and cloud engineering.
+**Professional headline:** DevOps & Platform Engineer | OCI, Kubernetes, Terraform & CI/CD | Building SVR Forge open-source tools
+
+
+I'm **Vignesh Raja Sundararajan**, a **DevOps & Platform Engineer (3+ years)** focused on cloud infrastructure, Kubernetes, CI/CD and reliable delivery operations.
 
 My primary work is in **DevOps, SRE and Platform Engineering**. I also explore **developer productivity tools, automation and web experiences**. I prefer small, understandable tools that solve an actual workflow over impressive-looking demos with no clear use.
 
@@ -74,13 +77,13 @@ The five **SVR Forge** projects below were written as **independent learning uti
 
 ## Open source & collaboration
 
-Interested in DevOps, SRE, Kubernetes, OCI, platform tooling or AI developer workflows? Feel free to [open a discussion through GitHub issues](https://github.com/devopsvikki/devopsvikki/issues) or explore the [source code](./labs/).
+Interested in DevOps, SRE, Kubernetes, OCI, platform tooling or AI developer workflows? Feel free to [open a discussion through GitHub issues](https://github.com/svrforge/devopsvikki/issues) or explore the [source code](./labs/).
 
 Contributions welcome. Please review [Contributing](./CONTRIBUTING.md), [Security](./SECURITY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 <div align="center">
 
-**SVR Forge · Vignesh Raja Sundararajan · @devopsvikki**
+**SVR Forge · Vignesh Raja Sundararajan · @svrforge**
 
 *Reliable systems. Thoughtful automation. Useful software.*
 
