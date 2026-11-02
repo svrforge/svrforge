@@ -30,4 +30,4 @@ Offline-only: reads local files, never connects to a cluster or cloud, never wri
 
 ## Open source
 
-Part of [VRS DevOps Lab](../README.md). See [MIT license](../LICENSE). Issues and PRs welcome; do not share confidential logs in public issues.
+Part of [SVR Forge DevOps Lab](../README.md). See [MIT license](../LICENSE). Issues and PRs welcome; do not share confidential logs in public issues.
