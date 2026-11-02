@@ -1,4 +1,4 @@
-# Contributing to VRS DevOps Lab
+# Contributing to SVR Forge DevOps Lab
 
 Thanks for considering a contribution! This repository contains small, **read-only, offline-first educational DevOps tools**.
 
