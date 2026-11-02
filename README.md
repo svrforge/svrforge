@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="Vignesh Raja Sundararajan | DevOps & Platform Engineering" width="100%"/>
+<img src="./assets/profile-hero.svg" alt="SVR Forge | Vignesh Raja Sundararajan | DevOps & Platform Engineering" width="100%"/>
 
-### I build reliable cloud platforms, safer delivery pipelines and practical tools for engineers.
+### SVR / BUILD · SECURE · SCALE
+
+**SVR Forge** — my independent open-source engineering lab for practical DevOps, cloud and developer tooling.
 
 [![DevOps Lab CI](https://github.com/devopsvikki/devopsvikki/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/devopsvikki/devopsvikki/actions/workflows/labs-tests.yml)
 [![Original tools](https://img.shields.io/badge/original%20tools-5-28b5ae?style=flat-square)](./labs/)
@@ -25,9 +27,9 @@ My primary work is in **DevOps, SRE and Platform Engineering**. I also explore *
 
 > Design for reliability. Automate the repetitive. Make the evidence visible.
 
-## Original projects
+## SVR Forge · Original Projects
 
-The five projects below were written as **independent learning utilities** for engineers. They're currently separate folders in this public profile repository—not yet separate GitHub repositories. Each includes code, examples, documentation and unit tests.
+The five **SVR Forge** projects below were written as **independent learning utilities** for engineers. They're currently separate folders in this public profile repository—not yet separate GitHub repositories. Each includes code, examples, documentation and unit tests.
 
 | Project | Engineering problem | Focus |
 | :--- | :--- | :--- |
@@ -78,7 +80,7 @@ Contributions welcome. Please review [Contributing](./CONTRIBUTING.md), [Securit
 
 <div align="center">
 
-**Vignesh Raja Sundararajan · @devopsvikki**
+**SVR Forge · Vignesh Raja Sundararajan · @devopsvikki**
 
 *Reliable systems. Thoughtful automation. Useful software.*
 
