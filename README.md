@@ -6,7 +6,7 @@
 
 **SVR Forge** — an independent engineering identity for infrastructure, developer productivity and trustworthy automation.
 
-[![DevOps Lab CI](https://github.com/svrforge/devopsvikki/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/svrforge/devopsvikki/actions/workflows/labs-tests.yml)
+[![DevOps Lab CI](https://github.com/svrforge/svrforge/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/svrforge/svrforge/actions/workflows/labs-tests.yml)
 [![Original tools](https://img.shields.io/badge/original%20tools-5-28b5ae?style=flat-square)](./labs/)
 [![Open source](https://img.shields.io/badge/license-MIT-176b78?style=flat-square)](./LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-svrforge-182b42?style=flat-square&logo=github)](https://github.com/svrforge)
@@ -77,7 +77,7 @@ The five **SVR Forge** projects below were written as **independent learning uti
 
 ## Open source & collaboration
 
-Interested in DevOps, SRE, Kubernetes, OCI, platform tooling or AI developer workflows? Feel free to [open a discussion through GitHub issues](https://github.com/svrforge/devopsvikki/issues) or explore the [source code](./labs/).
+Interested in DevOps, SRE, Kubernetes, OCI, platform tooling or AI developer workflows? Feel free to [open a discussion through GitHub issues](https://github.com/svrforge/svrforge/issues) or explore the [source code](./labs/).
 
 Contributions welcome. Please review [Contributing](./CONTRIBUTING.md), [Security](./SECURITY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
 
