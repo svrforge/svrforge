@@ -58,6 +58,15 @@ My primary focus is **DevOps, SRE and Platform Engineering**, with an additional
 | DevOps projects | [DevOps Projects](https://github.com/devopsvikki/devops-projects-001) |
 | Cloud-native deployment | [Kubernetes Monitoring Application](https://github.com/devopsvikki/deployed-cloud-native-monitoring-application-on-kubernetes) |
 
+## `$ ls practical-toolkit/`
+
+Small, readable utilities designed for hands-on DevOps learning:
+
+- [Deployment Preflight](https://github.com/devopsvikki/shell-scripting-project/tree/master/deployment-preflight) — a read-only Git and CLI readiness checklist
+- [Dockerfile Hygiene Checker](https://github.com/devopsvikki/shell-scripting-project/tree/master/dockerfile-lint) — beginner-friendly static Dockerfile warnings
+
+These are learning utilities, **not substitutes for production security reviews**.
+
 ## `$ git log --oneline --stat`
 
 <div align="center">
