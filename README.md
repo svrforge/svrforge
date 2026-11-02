@@ -48,24 +48,24 @@ My primary focus is **DevOps, SRE and Platform Engineering**, with an additional
 
 </div>
 
-## `$ ls featured-work/`
+## `$ ls ~/vrs-devops-lab/`
 
-| Focus | Repository |
+### 5 original open-source DevOps tools
+
+> Built from scratch as lightweight, offline-first learning utilities. No cloud credentials required.
+
+| Project | What it solves |
 |:--|:--|
-| DevOps learning | [90 Days of DevOps](https://github.com/devopsvikki/90DaysOfDevOps) |
-| Container workflows | [Docker Zero to Hero](https://github.com/devopsvikki/Docker-Zero-to-Hero) |
-| CI/CD fundamentals | [Jenkins Zero to Hero](https://github.com/devopsvikki/Jenkins-Zero-To-Hero) |
-| DevOps projects | [DevOps Projects](https://github.com/devopsvikki/devops-projects-001) |
-| Cloud-native deployment | [Kubernetes Monitoring Application](https://github.com/devopsvikki/deployed-cloud-native-monitoring-application-on-kubernetes) |
+| [Release Snapshot Checker](https://github.com/devopsvikki/devopsvikki/tree/main/labs/release-snapshot-checker) | Inspect Deployment snapshots for availability and release-readiness hints |
+| [Kube Drift Diff](https://github.com/devopsvikki/devopsvikki/tree/main/labs/kube-drift-diff) | Compare desired and actual Kubernetes specs without logging field values |
+| [Dockerfile Doctor](https://github.com/devopsvikki/devopsvikki/tree/main/labs/dockerfile-doctor) | Check common Dockerfile build hygiene patterns |
+| [Terraform Risk Radar](https://github.com/devopsvikki/devopsvikki/tree/main/labs/terraform-risk-radar) | Detect selected Terraform risk patterns with redacted findings |
+| [Actions Workflow Guard](https://github.com/devopsvikki/devopsvikki/tree/main/labs/actions-workflow-guard) | Find common GitHub Actions workflow anti-patterns |
 
-## `$ ls practical-toolkit/`
+[**Browse the complete original DevOps Lab →**](https://github.com/devopsvikki/devopsvikki/tree/main/labs)
 
-Small, readable utilities designed for hands-on DevOps learning:
+*Current release: five independent project directories inside this profile repository. Each includes source, documentation and unit tests. Designed for learning and review—not as a replacement for production security assessments.*
 
-- [Deployment Preflight](https://github.com/devopsvikki/shell-scripting-project/tree/master/deployment-preflight) — a read-only Git and CLI readiness checklist
-- [Dockerfile Hygiene Checker](https://github.com/devopsvikki/shell-scripting-project/tree/master/dockerfile-lint) — beginner-friendly static Dockerfile warnings
-
-These are learning utilities, **not substitutes for production security reviews**.
 
 ## `$ git log --oneline --stat`
 
