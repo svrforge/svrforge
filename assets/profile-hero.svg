@@ -1,29 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="SVR Forge — Vignesh Raja Sundararajan, DevOps and Platform Engineering">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+<title id="title">SVR Forge — DevOps, SRE and Platform Engineering</title>
+<desc id="desc">Vignesh Raja Sundararajan. Engineering reliable cloud systems through infrastructure as code, automated delivery and observability.</desc>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060F1B"/><stop offset=".56" stop-color="#0B203A"/><stop offset="1" stop-color="#07364C"/></linearGradient>
-<linearGradient id="neo" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#68E8DD"/><stop offset="1" stop-color="#90AEFF"/></linearGradient>
-<pattern id="mesh" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#7CAFCB" stroke-opacity=".09"/></pattern>
-<radialGradient id="aura"><stop offset="0" stop-color="#3EE5E3" stop-opacity=".22"/><stop offset="1" stop-color="#3EE5E3" stop-opacity="0"/></radialGradient>
+  <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#070D18"/><stop offset=".55" stop-color="#0B1729"/><stop offset="1" stop-color="#101D35"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#69F1DE"/><stop offset="1" stop-color="#83A9FF"/>
+  </linearGradient>
+  <radialGradient id="glow"><stop stop-color="#35DACF" stop-opacity=".15"/><stop offset="1" stop-color="#35DACF" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#AAC7EA" stroke-opacity=".065"/>
+  </pattern>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+    <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#02060E" flood-opacity=".35"/>
+  </filter>
 </defs>
-<rect width="1200" height="390" rx="18" fill="url(#bg)"/>
-<rect width="1200" height="390" rx="18" fill="url(#mesh)"/>
-<circle cx="989" cy="176" r="275" fill="url(#aura)"/>
-<path d="M58 58H105" stroke="url(#neo)" stroke-width="4" stroke-linecap="round"/>
-<text x="125" y="65" font-family="Arial,Helvetica,sans-serif" fill="#B4D5E3" font-size="18" letter-spacing="4">INDEPENDENT ENGINEERING · OPEN SOURCE</text>
-<text x="54" y="190" font-family="Arial,Helvetica,sans-serif" fill="#FFFFFF" font-size="125" font-weight="800" letter-spacing="10">SVR</text>
-<text x="390" y="181" font-family="Arial,Helvetica,sans-serif" fill="#78E8E2" font-size="38" font-weight="700" letter-spacing="9">FORGE</text>
-<rect x="59" y="211" width="453" height="2" rx="1" fill="url(#neo)" opacity=".74"/>
-<text x="58" y="256" font-family="Arial,Helvetica,sans-serif" fill="#F5F9FC" font-size="30" font-weight="600" letter-spacing="1">VIGNESH RAJA SUNDARARAJAN</text>
-<text x="58" y="304" font-family="Arial,Helvetica,sans-serif" fill="#A4CBDF" font-size="22">DevOps  /  Platform Engineering  /  Cloud Infrastructure</text>
-<text x="58" y="348" font-family="Arial,Helvetica,sans-serif" fill="#78E8E2" font-size="20" font-weight="600" letter-spacing="3">BUILD  ·  SECURE  ·  SCALE</text>
-<g opacity=".9" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<path d="M885 105L996 43L1111 105L996 170Z" stroke="#85B0E9" stroke-width="2"/>
-<path d="M885 105V234L996 297L1111 234V105M996 170V297" stroke="#59E7DF" stroke-opacity=".68" stroke-width="2"/>
-<path d="M885 234L996 170L1111 234" stroke="#7494D2" stroke-opacity=".38" stroke-width="2" stroke-dasharray="7 7"/>
-<circle cx="885" cy="105" r="9" fill="#0B203A" stroke="#68E8DD" stroke-width="3"/>
-<circle cx="1111" cy="105" r="9" fill="#0B203A" stroke="#68E8DD" stroke-width="3"/>
-<circle cx="996" cy="170" r="11" fill="#0B203A" stroke="#9FAEFF" stroke-width="3"/>
-<circle cx="996" cy="297" r="9" fill="#0B203A" stroke="#68E8DD" stroke-width="3"/>
+<rect width="1200" height="470" rx="20" fill="url(#base)"/>
+<rect width="1200" height="470" rx="20" fill="url(#grid)"/>
+<circle cx="1110" cy="56" r="310" fill="url(#glow)"/>
+<path d="M0 444C280 409 456 497 736 435S1050 399 1200 426" stroke="#6BE8DC" stroke-opacity=".18" fill="none"/>
+<path d="M0 456C320 416 464 506 750 450S1080 408 1200 438" stroke="#8AABFF" stroke-opacity=".15" fill="none"/>
+<rect x="56" y="52" width="8" height="8" rx="2" fill="#6CF4DC"/>
+<text x="78" y="62" fill="#A8BBD3" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" letter-spacing="3">INDEPENDENT ENGINEERING STUDIO</text>
+<text x="57" y="215" fill="#F5FAFF" font-family="Arial,Helvetica,sans-serif" font-size="142" font-weight="800" letter-spacing="-4">SVR</text>
+<text x="373" y="207" fill="url(#accent)" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="800" letter-spacing="3">FORGE</text>
+<rect x="62" y="246" width="565" height="2" fill="url(#accent)" opacity=".72"/>
+<text x="61" y="301" fill="#F2F7FF" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="700">Vignesh Raja Sundararajan</text>
+<text x="61" y="345" fill="#A8BDD5" font-family="Arial,Helvetica,sans-serif" font-size="21">Cloud infrastructure. Reliable delivery. Practical automation.</text>
+<rect x="61" y="385" width="282" height="34" rx="17" fill="#123445" stroke="#387A83" stroke-opacity=".65"/>
+<circle cx="83" cy="402" r="5" fill="#71F2D6"/>
+<text x="97" y="407" fill="#B4F7E9" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">DEVOPS  /  SRE  /  PLATFORM</text>
+<g filter="url(#shadow)">
+<rect x="750" y="62" width="407" height="356" rx="16" fill="#0C1728" stroke="#3C5975" stroke-opacity=".8"/>
 </g>
-<rect x="1" y="1" width="1198" height="388" rx="17" stroke="#79C8D5" stroke-opacity=".25" fill="none"/>
+<rect x="750" y="62" width="407" height="5" rx="2" fill="url(#accent)" opacity=".92"/>
+<text x="777" y="105" fill="#E6F2FF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="1.5">THE ENGINEERING LOOP</text>
+<circle cx="1105" cy="98" r="4" fill="#65EDD9"/><circle cx="1123" cy="98" r="4" fill="#5B6F8C"/>
+<text x="777" y="132" fill="#7D99B4" font-family="Arial,Helvetica,sans-serif" font-size="13">A simple system for dependable delivery</text>
+<g font-family="Arial,Helvetica,sans-serif">
+  <rect x="776" y="160" width="103" height="91" rx="10" fill="#12283B" stroke="#315A75"/>
+  <rect x="906" y="160" width="103" height="91" rx="10" fill="#12283B" stroke="#315A75"/>
+  <rect x="1036" y="160" width="94" height="91" rx="10" fill="#12283B" stroke="#315A75"/>
+  <text x="827" y="194" text-anchor="middle" fill="#7DEFE0" font-size="17" font-weight="700">BUILD</text>
+  <text x="827" y="217" text-anchor="middle" fill="#A9BCD1" font-size="12">IaC / Cloud</text>
+  <text x="957" y="194" text-anchor="middle" fill="#7DEFE0" font-size="17" font-weight="700">SHIP</text>
+  <text x="957" y="217" text-anchor="middle" fill="#A9BCD1" font-size="12">CI / CD</text>
+  <text x="1083" y="194" text-anchor="middle" fill="#7DEFE0" font-size="17" font-weight="700">RUN</text>
+  <text x="1083" y="217" text-anchor="middle" fill="#A9BCD1" font-size="12">Observe</text>
+</g>
+<path d="M883 205h18m-7-7 7 7-7 7M1013 205h17m-7-7 7 7-7 7" stroke="#88A6D4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1119 277H787" stroke="#27435A" stroke-width="1"/>
+<text x="777" y="305" fill="#91A6BF" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1.5">ENGINEERING PRINCIPLES</text>
+<g fill="#68DCCF"><circle cx="783" cy="333" r="4"/><circle cx="783" cy="363" r="4"/><circle cx="957" cy="333" r="4"/><circle cx="957" cy="363" r="4"/></g>
+<g fill="#D7E6F6" font-family="Arial,Helvetica,sans-serif" font-size="14">
+<text x="797" y="338">Secure defaults</text><text x="797" y="368">Reproducible work</text>
+<text x="971" y="338">Visible evidence</text><text x="971" y="368">Clear ownership</text>
+</g>
+<rect x="1" y="1" width="1198" height="468" rx="19" fill="none" stroke="#6D9ABC" stroke-opacity=".25"/>
 </svg>
