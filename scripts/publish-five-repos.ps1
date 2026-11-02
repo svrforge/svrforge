@@ -24,10 +24,7 @@ $working = Join-Path ([System.IO.Path]::GetTempPath()) ("vrs-devops-publish-" + 
 New-Item -ItemType Directory -Path $working | Out-Null
 try {
   $source = Join-Path $working 'source'
-  $sourceRepo = "$owner/devopsvikki"
-  & gh repo view "$owner/$owner" --json name 2>$null | Out-Null
-  if ($LASTEXITCODE -eq 0) { $sourceRepo = "$owner/$owner" }
-  & gh repo clone $sourceRepo $source -- --depth 1
+  & gh repo clone "$owner/$owner" $source -- --depth 1
   if($LASTEXITCODE -ne 0) { throw 'Unable to clone existing public profile repository.' }
   foreach($p in $projects){
     $name=$p.Name
