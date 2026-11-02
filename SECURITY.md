@@ -8,7 +8,7 @@ Only the latest code on the `main` branch is maintained. There are no versioned 
 
 ## Report responsibly
 
-**Do not publish credentials, production infrastructure manifests, customer logs, private keys or exploitable details in public GitHub issues.** For a potentially sensitive vulnerability, use [GitHub private vulnerability reporting](https://github.com/svrforge/devopsvikki/security/advisories/new) when available.
+**Do not publish credentials, production infrastructure manifests, customer logs, private keys or exploitable details in public GitHub issues.** For a potentially sensitive vulnerability, use [GitHub private vulnerability reporting](https://github.com/svrforge/svrforge/security/advisories/new) when available.
 
 ## Data and execution model
 
