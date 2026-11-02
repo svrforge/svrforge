@@ -1,36 +1,39 @@
-# Publish five independent repositories
+# SVR Forge — GitHub publishing and profile setup
 
-These projects are currently original project directories in the existing public `devopsvikki/devopsvikki` repository. The connected GitHub tool cannot create new repositories or change account profile fields.
+Current GitHub login: [svrforge](https://github.com/svrforge).
 
-## Prerequisites
+The account has already been renamed, but its public repository with the README is still `svrforge/devopsvikki`. GitHub will only feature that README when the repository is renamed to **`svrforge/svrforge`**.
 
-Windows PowerShell 5.1+ with [Git](https://git-scm.com/downloads) and [GitHub CLI](https://cli.github.com/) installed.
+## First: activate GitHub profile README
+
+Open [this repository's Settings](https://github.com/svrforge/devopsvikki/settings) → General → Repository name → rename `devopsvikki` to `svrforge`. This does **not** change any other repository.
+
+## Next: set display name and bio
+
+[GitHub Profile Settings](https://github.com/settings/profile)
+
+- Name: **Vignesh Raja Sundararajan**
+- Bio: **DevOps & Platform Engineer | OCI, Kubernetes, Terraform & CI/CD | Building SVR Forge open-source tools**
+
+Alternatively, use authenticated GitHub CLI on your own Windows computer:
 
 ```powershell
 gh auth login
-gh auth status
-git config --global user.name "Vignesh Raja Sundararajan"
-# Set your actual Git-associated email locally (do not put it into this public script).
-```
-
-## Publish the repositories
-
-```powershell
-git clone https://github.com/devopsvikki/devopsvikki.git
+git clone https://github.com/svrforge/devopsvikki.git
 cd devopsvikki
-.\scripts\publish-five-repos.ps1
-```
-
-This script checks all five repository names first and refuses to overwrite existing names. It asks for an explicit `CREATE-5` confirmation, creates **new public repositories only**, and does not change visibility on existing repositories. It needs your own authenticated GitHub CLI permissions and may leave a partial set if an individual creation fails.
-
-## Update profile name and bio
-
-```powershell
 .\scripts\apply-profile-settings.ps1
 ```
 
-This separate, opt-in script changes only GitHub **display name and bio** after an explicit `UPDATE-PROFILE` confirmation. It does not change your username.
+This script asks for explicit confirmation and changes only your display name and bio.
 
-## Important
+## Optional: publish five distinct public repositories
 
-Your existing public forks remain public until their visibility is changed through the correct GitHub fork-network process. **Do not delete fork history casually**, and never make any existing private project public just to publish these labs.
+```powershell
+.\scripts\publish-five-repos.ps1
+```
+
+This script prompts before creating any new public repository and refuses to overwrite existing names. It never changes existing repositories' visibility. You should set Git's `user.name` and `user.email` first.
+
+## Safety
+
+Don't commit cloud secrets, production manifests or customer data. Leave XIYARO and every pre-existing private repository completely unchanged. Fork visibility/detachment requires a separate review.
