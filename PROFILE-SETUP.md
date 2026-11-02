@@ -1,32 +1,24 @@
-# SVR Forge — Professional GitHub Profile Settings
+# SVR Forge — GitHub Profile Status
 
-**Account:** [@svrforge](https://github.com/svrforge)
+**Official account:** [@svrforge](https://github.com/svrforge)
 
-## Public profile details
+## Verified profile identity
 
-- **Name:** Vignesh Raja Sundararajan
-- **Bio:** DevOps & Platform Engineer | OCI, Kubernetes, Terraform & CI/CD | Building SVR Forge open-source tools
-- **Username:** `svrforge` (verified)
-- **Location:** Tamil Nadu, India (optional)
-- **Website:** Only add a verified professional portfolio URL
-- **Profile picture:** A clear professional portrait, if desired
+- Username: **svrforge**
+- Display name: **Vignesh Raja Sundararajan**
+- Public profile repository: **svrforge/svrforge**
+- Project collection: [SVR Forge DevOps Lab](./labs/)
 
-## Crucial: activate your GitHub profile README
+The profile repository name now matches the username, so GitHub can show its README directly on the profile.
 
-Your existing public README repository is currently `svrforge/devopsvikki`. GitHub displays a special profile README only when **repository name = account username**.
+## Recommended public bio
 
-1. Open [the current repository settings](https://github.com/svrforge/devopsvikki/settings).
-2. Under **General → Repository name**, rename `devopsvikki` to **`svrforge`**.
-3. Visit [your GitHub profile](https://github.com/svrforge) and verify that the SVR Forge README appears.
+DevOps & Platform Engineer | OCI, Kubernetes, Terraform & CI/CD | Building SVR Forge open-source tools
 
-This rename affects only the public profile-code repository. It does **not** rename or modify XIYARO, other repositories, privacy settings, or GitHub username.
+The connected repository tool cannot verify or edit the GitHub account bio. Check [Profile Settings](https://github.com/settings/profile) for the currently saved text.
 
-## Other settings
+## Final profile recommendations
 
-- [Edit display name and bio](https://github.com/settings/profile)
-- [Customize pinned repositories](https://github.com/svrforge) — choose original projects after their creation as separate repos.
-- Leave contact email and employer fields blank unless you want them public.
+Use a professional headshot and pin only independently authored repositories (after creating standalone repositories). Add professional contact information or a portfolio website only if you want those details public.
 
-## Existing repositories
-
-**Never change any existing private repository to public.** XIYARO-related assets should remain untouched. Existing public forks require their own careful privacy/ownership review. No such changes were made by this profile update.
+**Privacy:** Keep XIYARO and all existing private repositories untouched. Profile customization should never change their names, contents or visibility.
