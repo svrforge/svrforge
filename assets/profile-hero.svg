@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Vignesh Raja Sundararajan, DevOps and Platform Engineering">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071220"/><stop offset=".55" stop-color="#0d2440"/><stop offset="1" stop-color="#09384a"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#54e1dc"/><stop offset="1" stop-color="#75adff"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#7597b6" stroke-opacity=".11"/></pattern>
+  <radialGradient id="glow"><stop stop-color="#39d4d0" stop-opacity=".20"/><stop offset="1" stop-color="#39d4d0" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="380" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="380" rx="18" fill="url(#grid)"/>
+<circle cx="995" cy="185" r="285" fill="url(#glow)"/>
+<path d="M46 46h32" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+<text x="90" y="53" font-family="Arial,Helvetica,sans-serif" fill="#8eb2c9" font-size="17" letter-spacing="4">ENGINEERING PORTFOLIO</text>
+<text x="60" y="146" font-family="Arial,Helvetica,sans-serif" fill="#ffffff" font-size="58" font-weight="700" letter-spacing="1">VIGNESH RAJA</text>
+<text x="60" y="217" font-family="Arial,Helvetica,sans-serif" fill="#ffffff" font-size="58" font-weight="700" letter-spacing="1">SUNDARARAJAN</text>
+<rect x="62" y="248" width="144" height="4" rx="2" fill="url(#accent)"/>
+<text x="60" y="293" font-family="Arial,Helvetica,sans-serif" fill="#7fe5e4" font-size="24" font-weight="600">DEVOPS  /  PLATFORM ENGINEERING</text>
+<text x="60" y="330" font-family="Arial,Helvetica,sans-serif" fill="#a6bfd3" font-size="19">Cloud Infrastructure  ·  CI/CD  ·  Automation  ·  AI Tools</text>
+<g opacity=".82" fill="none" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M890 95 L1003 153 L1115 95 M1003 153 L1003 268 M890 95L890 205 L1003 268 L1115 205 L1115 95" stroke="#6ad6ea" stroke-opacity=".60" stroke-width="2"/>
+ <path d="M890 205 L1003 153 L1115 205 M890 95 L1003 37 L1115 95" stroke="#86aaff" stroke-opacity=".36" stroke-width="2" stroke-dasharray="6 8"/>
+ <circle cx="890" cy="95" r="11" fill="#0d2440" stroke="#68e6e0" stroke-width="4"/>
+ <circle cx="1115" cy="95" r="11" fill="#0d2440" stroke="#68e6e0" stroke-width="4"/>
+ <circle cx="1003" cy="153" r="13" fill="#0d2440" stroke="#a8b8ff" stroke-width="4"/>
+ <circle cx="1003" cy="268" r="11" fill="#0d2440" stroke="#68e6e0" stroke-width="4"/>
+ <circle cx="890" cy="205" r="8" fill="#0d2440" stroke="#75adff" stroke-width="3"/>
+ <circle cx="1115" cy="205" r="8" fill="#0d2440" stroke="#75adff" stroke-width="3"/>
+</g>
+<rect x="1" y="1" width="1198" height="378" rx="17" stroke="#65b7cc" stroke-opacity=".22" fill="none"/>
+</svg>

@@ -1,0 +1,31 @@
+name: Bug report
+description: Report reproducible incorrect behavior in an original DevOps Lab tool
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Affected tool
+      options:
+        - release-snapshot-checker
+        - kube-drift-diff
+        - dockerfile-doctor
+        - terraform-risk-radar
+        - actions-workflow-guard
+        - profile or documentation
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Share a minimal, synthetic example only. Never include real secrets or customer data.
+      placeholder: "Command, synthetic input, expected behavior, actual behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS, Python version and tool path"

@@ -1,0 +1,23 @@
+name: Feature proposal
+description: Suggest a focused improvement to the original DevOps Lab
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user workflow and why the current tool is insufficient.
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Proposed behavior
+      description: Include inputs, expected outputs and safety constraints.
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Safety
+      options:
+        - label: "The proposal does not require production secrets or unauthorized changes."

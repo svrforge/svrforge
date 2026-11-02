@@ -1,100 +1,85 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:071126,50:12356b,100:00c4ff&text=VIGNESH%20RAJA%20SUNDARARAJAN&fontColor=ffffff&fontSize=32&fontAlignY=39&desc=DevOps%20%7C%20Platform%20Engineering%20%7C%20Cloud%20%7C%20AI%20Tools&descAlignY=60&descSize=17&animation=fadeIn" alt="Vignesh Raja Sundararajan — DevOps, Platform Engineering and AI Tools"/>
+<img src="./assets/profile-hero.svg" alt="Vignesh Raja Sundararajan | DevOps & Platform Engineering" width="100%"/>
 
-### Engineering resilient infrastructure. Building tools developers love.
+### I build reliable cloud platforms, safer delivery pipelines and practical tools for engineers.
 
-**DevOps / Platform Engineer** · **Cloud Infrastructure** · **Automation** · **AI Developer Tools**
-
-[![Profile views](https://komarev.com/ghpvc/?username=devopsvikki&label=PROFILE%20VIEWS&color=0077b5&style=for-the-badge)](https://github.com/devopsvikki)
-[![GitHub followers](https://img.shields.io/github/followers/devopsvikki?label=FOLLOWERS&style=for-the-badge&color=1f6feb)](https://github.com/devopsvikki?tab=followers)
+[![DevOps Lab CI](https://github.com/devopsvikki/devopsvikki/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/devopsvikki/devopsvikki/actions/workflows/labs-tests.yml)
+[![Original tools](https://img.shields.io/badge/original%20tools-5-28b5ae?style=flat-square)](./labs/)
+[![Open source](https://img.shields.io/badge/license-MIT-176b78?style=flat-square)](./LICENSE)
+[![GitHub](https://img.shields.io/badge/GitHub-devopsvikki-182b42?style=flat-square&logo=github)](https://github.com/devopsvikki)
 
 </div>
 
----
+## About me
 
-## `$ whoami`
+I'm **Vignesh Raja Sundararajan**, a DevOps and Platform Engineer with **3+ years of experience** focused on infrastructure reliability, CI/CD automation, deployment operations and cloud engineering.
 
-I'm **Vignesh Raja Sundararajan**, a DevOps engineer focused on building reliable cloud infrastructure, scalable delivery systems and pragmatic automation.
+My primary work is in **DevOps, SRE and Platform Engineering**. I also explore **developer productivity tools, automation and web experiences**. I prefer small, understandable tools that solve an actual workflow over impressive-looking demos with no clear use.
 
-My primary focus is **DevOps, SRE and Platform Engineering**, with an additional interest in **website design** and **AI-powered developer tools**.
+- **Infrastructure:** Oracle Cloud Infrastructure (OCI), Kubernetes, Docker, Terraform
+- **Delivery:** Jenkins, GitHub Actions, Git, CI/CD and release workflows
+- **Operations:** Production troubleshooting, deployment validation, observability and operational security
+- **Currently exploring:** Offline-first developer tooling and AI-assisted engineering workflows
+- **Also interested in:** Modern web development and interface design
 
-- **Cloud & infrastructure:** Oracle Cloud Infrastructure (OCI), Kubernetes, Docker and Terraform
-- **Delivery engineering:** Jenkins, CI/CD pipelines, release operations and deployment automation
-- **Reliability & security:** Observability, troubleshooting, production-safe assessment and operational discipline
-- **Building next:** Developer tooling for release readiness and infrastructure risk
-- **Beyond infrastructure:** Modern frontend experiences
+> Design for reliability. Automate the repetitive. Make the evidence visible.
 
-> **Build with intent. Automate with discipline. Ship with confidence.**
+## Original projects
 
-## `$ cat tech-stack.yml`
+The five projects below were written as **independent learning utilities** for engineers. They're currently separate folders in this public profile repository—not yet separate GitHub repositories. Each includes code, examples, documentation and unit tests.
+
+| Project | Engineering problem | Focus |
+| :--- | :--- | :--- |
+| **[Release Snapshot Checker](./labs/release-snapshot-checker/)** | Review Kubernetes deployment snapshots before release | Deployments, image tags, replicas, readiness |
+| **[Kube Drift Diff](./labs/kube-drift-diff/)** | Compare desired and observed Kubernetes specs | Drift detection without displaying field values |
+| **[Dockerfile Doctor](./labs/dockerfile-doctor/)** | Find common container build hygiene issues | Base images, USER, risky install patterns |
+| **[Terraform Risk Radar](./labs/terraform-risk-radar/)** | Review common risky infrastructure-as-code patterns | CIDRs, credential literals, TLS settings |
+| **[Actions Workflow Guard](./labs/actions-workflow-guard/)** | Review GitHub Actions workflow hygiene | Permissions, action pins, workflow triggers |
+
+**[Explore the complete DevOps Lab, run commands and test instructions](./labs/)**
+
+> These tools are educational, read-only, offline heuristics—not production security certifications or replacements for specialist scanners. No cloud credentials are required.
+
+## Engineering toolkit
 
 <div align="center">
 
-**Cloud · Infrastructure · Containers**
+**Cloud & infrastructure**
 
-![OCI](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 
-**Delivery · Automation · Development**
+**Automation & delivery**
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
 </div>
 
-## `$ ls ~/vrs-devops-lab/`
+## How I work
 
-### 5 original open-source DevOps tools
+**Build:** Minimal, reproducible examples that you can understand and run locally.
 
-> Built from scratch as lightweight, offline-first learning utilities. No cloud credentials required.
+**Verify:** Automated checks, observable behavior, documented limitations and safe defaults.
 
-| Project | What it solves |
-|:--|:--|
-| [Release Snapshot Checker](https://github.com/devopsvikki/devopsvikki/tree/main/labs/release-snapshot-checker) | Inspect Deployment snapshots for availability and release-readiness hints |
-| [Kube Drift Diff](https://github.com/devopsvikki/devopsvikki/tree/main/labs/kube-drift-diff) | Compare desired and actual Kubernetes specs without logging field values |
-| [Dockerfile Doctor](https://github.com/devopsvikki/devopsvikki/tree/main/labs/dockerfile-doctor) | Check common Dockerfile build hygiene patterns |
-| [Terraform Risk Radar](https://github.com/devopsvikki/devopsvikki/tree/main/labs/terraform-risk-radar) | Detect selected Terraform risk patterns with redacted findings |
-| [Actions Workflow Guard](https://github.com/devopsvikki/devopsvikki/tree/main/labs/actions-workflow-guard) | Find common GitHub Actions workflow anti-patterns |
+**Collaborate:** Actionable issue reports, focused pull requests and respectful feedback.
 
-[**Browse the complete original DevOps Lab →**](https://github.com/devopsvikki/devopsvikki/tree/main/labs)
+## Open source & collaboration
 
-*Current release: five independent project directories inside this profile repository. Each includes source, documentation and unit tests. Designed for learning and review—not as a replacement for production security assessments.*
+Interested in DevOps, SRE, Kubernetes, OCI, platform tooling or AI developer workflows? Feel free to [open a discussion through GitHub issues](https://github.com/devopsvikki/devopsvikki/issues) or explore the [source code](./labs/).
 
-
-## `$ git log --oneline --stat`
+Contributions welcome. Please review [Contributing](./CONTRIBUTING.md), [Security](./SECURITY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=devopsvikki&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devopsvikki&layout=compact&theme=github_dark&hide_border=true" alt="Top repository languages"/>
-<img width="85%" src="https://streak-stats.demolab.com?user=devopsvikki&theme=github-dark-blue&hide_border=true" alt="GitHub activity streak"/>
+**Vignesh Raja Sundararajan · @devopsvikki**
 
-</div>
-
-## `$ echo "what I'm building toward"`
-
-I care about tools that make engineering teams **faster, safer and more confident**:
-
-- **Release readiness:** Evidence-backed checks before production deployments
-- **Cloud operations:** Practical insight into infrastructure health, risk and cost
-- **AI-assisted workflows:** Useful integrations for coding assistants and engineering teams
-- **Human-centered web:** Clean interfaces, motion and thoughtful user experience
-
-**Open to:** DevOps / SRE / Platform Engineering opportunities, open-source collaboration and developer-tool conversations.
-
-<div align="center">
-
-### Let's build something that lasts.
-
-[![Repositories](https://img.shields.io/badge/Explore%20Repositories-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devopsvikki?tab=repositories)
-[![Follow](https://img.shields.io/badge/Follow%20on%20GitHub-0969da?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devopsvikki)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=105&color=0:071126,50:12356b,100:00c4ff" alt="Footer wave"/>
+*Reliable systems. Thoughtful automation. Useful software.*
 
 </div>
