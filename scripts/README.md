@@ -1,39 +1,32 @@
-# SVR Forge — GitHub publishing and profile setup
+# SVR Forge — GitHub Profile and Project Publishing
 
-Current GitHub login: [svrforge](https://github.com/svrforge).
+Your GitHub username, display name and matching profile README repository are now active:
 
-The account has already been renamed, but its public repository with the README is still `svrforge/devopsvikki`. GitHub will only feature that README when the repository is renamed to **`svrforge/svrforge`**.
+- [GitHub profile](https://github.com/svrforge)
+- [Profile repository](https://github.com/svrforge/svrforge)
+- [SVR Forge original DevOps tools](https://github.com/svrforge/svrforge/tree/main/labs)
 
-## First: activate GitHub profile README
+## Optional account bio setting
 
-Open [this repository's Settings](https://github.com/svrforge/devopsvikki/settings) → General → Repository name → rename `devopsvikki` to `svrforge`. This does **not** change any other repository.
+Use [GitHub Profile Settings](https://github.com/settings/profile) and set:
 
-## Next: set display name and bio
+`DevOps & Platform Engineer | OCI, Kubernetes, Terraform & CI/CD | Building SVR Forge open-source tools`
 
-[GitHub Profile Settings](https://github.com/settings/profile)
+The [apply-profile-settings.ps1](./apply-profile-settings.ps1) script offers an optional local alternative with a confirmation gate.
 
-- Name: **Vignesh Raja Sundararajan**
-- Bio: **DevOps & Platform Engineer | OCI, Kubernetes, Terraform & CI/CD | Building SVR Forge open-source tools**
-
-Alternatively, use authenticated GitHub CLI on your own Windows computer:
+## Optional: publish the original tools as five separate repositories
 
 ```powershell
 gh auth login
-git clone https://github.com/svrforge/devopsvikki.git
-cd devopsvikki
-.\scripts\apply-profile-settings.ps1
-```
-
-This script asks for explicit confirmation and changes only your display name and bio.
-
-## Optional: publish five distinct public repositories
-
-```powershell
+git clone https://github.com/svrforge/svrforge.git
+cd svrforge
 .\scripts\publish-five-repos.ps1
 ```
 
-This script prompts before creating any new public repository and refuses to overwrite existing names. It never changes existing repositories' visibility. You should set Git's `user.name` and `user.email` first.
+Requires Git, GitHub CLI, a valid local Git commit identity and PowerShell. The script asks for explicit confirmation, checks for existing repository names, and creates only **new public repositories**. It does not modify any existing repository's contents or visibility. Partial publication can occur if a later operation fails.
 
-## Safety
+The five projects are currently **folders** in the profile repository, not separate GitHub repositories.
 
-Don't commit cloud secrets, production manifests or customer data. Leave XIYARO and every pre-existing private repository completely unchanged. Fork visibility/detachment requires a separate review.
+## Privacy
+
+Do not modify XIYARO or any existing private repository. GitHub public forks have separate network/visibility rules and are not included in this script.
