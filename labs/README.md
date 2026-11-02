@@ -1,6 +1,6 @@
-# VRS DevOps Lab
+# SVR Forge — DevOps Lab
 
-**Original, beginner-friendly, offline-first DevOps utilities by Vignesh Raja Sundararajan.** These five projects are hosted as independent directories in the existing public profile repository until they are split into separate repositories. They are **not** GitHub forks.
+**SVR Forge** is a personal engineering and open-source lab by **Vignesh Raja Sundararajan**. These original, offline-first DevOps utilities are designed for learning and review. These five projects are hosted as independent directories in the existing public profile repository until they are split into separate repositories. They are **not** GitHub forks.
 
 | Project | Focus | Run |
 |---|---|---|
