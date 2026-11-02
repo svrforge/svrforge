@@ -1,0 +1,24 @@
+name: Shell Ops Starter tests
+
+on:
+  push:
+    paths:
+      - "labs/shell-ops-starter/**"
+      - ".github/workflows/shell-ops-tests.yml"
+  pull_request:
+    paths:
+      - "labs/shell-ops-starter/**"
+      - ".github/workflows/shell-ops-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bash-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bash syntax and smoke tests
+        run: bash labs/shell-ops-starter/tests/smoke.sh
