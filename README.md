@@ -1,145 +1,220 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="SVR Forge — Vignesh Raja Sundararajan | DevOps, SRE and Platform Engineering" width="100%" />
+<img src="./assets/profile-hero.svg" width="100%" alt="SVR Forge — Vignesh Raja Sundararajan | DevOps, SRE and Platform Engineering" />
 
 <br />
 
-**Engineering reliable infrastructure, repeatable delivery and useful developer tools.**
+### BUILD RESILIENT SYSTEMS. SHIP WITH CONFIDENCE.
 
-[![DevOps Lab CI](https://github.com/svrforge/svrforge/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/svrforge/svrforge/actions/workflows/labs-tests.yml)
-[![Tools](https://img.shields.io/badge/original%20collections-7-64E3CD?style=flat-square&labelColor=102034)](./labs/)
-[![License](https://img.shields.io/badge/license-MIT-86ADFF?style=flat-square&labelColor=102034)](./LICENSE)
-[![GitHub](https://img.shields.io/badge/%40svrforge-GitHub-DAE8FA?style=flat-square&logo=github&labelColor=102034)](https://github.com/svrforge)
+**DevOps · Site Reliability Engineering · Platform Engineering · Cloud Infrastructure**
 
-[About](#about) · [Engineering focus](#engineering-focus) · [Original projects](#original-projects) · [Toolbox](#toolbox) · [Collaborate](#collaborate)
+[![Portfolio](https://img.shields.io/badge/IDENTITY-SVR%20FORGE-101A30?style=flat-square&logo=github&logoColor=white)](https://github.com/svrforge)
+[![Original work](https://img.shields.io/badge/ORIGINAL%20WORK-7%20COLLECTIONS-0F827B?style=flat-square&labelColor=101A30)](./labs/)
+[![Python tests](https://github.com/svrforge/svrforge/actions/workflows/labs-tests.yml/badge.svg)](./.github/workflows/labs-tests.yml)
+[![Bash tests](https://github.com/svrforge/svrforge/actions/workflows/shell-ops-tests.yml/badge.svg)](./.github/workflows/shell-ops-tests.yml)
+
+[**EXPLORE WORK**](#featured-original-work) &nbsp; · &nbsp; [**ENGINEERING STACK**](#engineering-stack) &nbsp; · &nbsp; [**CONNECT**](#connect--collaborate)
 
 </div>
 
 ---
 
-## About
+## Hello, I'm Vignesh.
 
-Hi, I'm **Vignesh Raja Sundararajan** — a **DevOps & Platform Engineer with 3+ years of experience** working across cloud infrastructure, Kubernetes, CI/CD and production operations.
+I'm **Vignesh Raja Sundararajan**, a **DevOps & Platform Engineer with 3+ years of experience** working across cloud infrastructure, Kubernetes, CI/CD and production operations.
 
-**SVR Forge** is my independent engineering identity: a place to build, document and share practical automation. I care about systems that are **reproducible, observable, maintainable and secure by default** — not just impressive screenshots.
+I care about the engineering behind the product: **repeatable infrastructure, reliable releases, visible system health and recoverable operations**.
 
-My principal focus is **DevOps, Site Reliability Engineering and Platform Engineering**. I also work with developer tooling and modern web experiences.
+**SVR Forge** is my independent engineering identity. I build and share original, inspectable tools and practical operating guides — with a strong focus on DevOps, SRE and platform engineering, alongside an interest in developer tooling and web engineering.
 
-> **My approach:** Simplify the workflow. Automate the repeatable work. Verify the result. Make operations understandable.
-
-## Engineering focus
-
-| **01 · Cloud & platforms** | **02 · Automation & delivery** | **03 · Reliability & security** |
-| :--- | :--- | :--- |
-| OCI, Kubernetes, Docker and Infrastructure as Code | Jenkins, GitHub Actions, Terraform and release workflows | Deployment validation, troubleshooting, observability and practical security checks |
-| Design for repeatability and operational clarity | Reduce manual steps and build confidence in releases | Prefer least privilege, evidence-based checks and safe rollback plans |
-
-**The engineering loop:** `Plan → Build → Validate → Deliver → Observe → Improve`
-
-## Original projects
-
-My original work includes **five Python utilities**, a **Bash operations toolkit**, and a **practical platform operations handbook**. These are maintained as distinct folders in this public profile repository (not yet seven standalone repositories). The Python tools have unit tests; the Bash toolkit has smoke tests; the handbook contains original runbooks and templates.
+> **My philosophy:** Build with intent. Verify with evidence. Operate with confidence.
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 · <a href="./labs/release-snapshot-checker/">Release Snapshot Checker</a></h3>
-      <p>Review Kubernetes Deployment snapshots before a release: image tags, expected replicas and readiness signals.</p>
-      <sub>Focus: Kubernetes release reviews</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 · <a href="./labs/kube-drift-diff/">Kube Drift Diff</a></h3>
-      <p>Compare desired and observed Kubernetes specifications while avoiding exposure of field values in the report.</p>
-      <sub>Focus: configuration drift</sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>03 · <a href="./labs/dockerfile-doctor/">Dockerfile Doctor</a></h3>
-      <p>Spot common Dockerfile hygiene patterns involving base images, user selection and installation steps.</p>
-      <sub>Focus: container hygiene</sub>
-    </td>
-    <td valign="top">
-      <h3>04 · <a href="./labs/terraform-risk-radar/">Terraform Risk Radar</a></h3>
-      <p>Highlight selected IaC patterns involving network exposure, embedded credentials and TLS settings.</p>
-      <sub>Focus: infrastructure review</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>05 · <a href="./labs/actions-workflow-guard/">Actions Workflow Guard</a></h3>
-      <p>Check common GitHub Actions workflow hygiene issues, including permissions, action references and event triggers.</p>
-      <sub>Focus: CI/CD workflow review</sub>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h3>06 · <a href="./labs/shell-ops-starter/">Shell Ops Starter</a></h3>
-      <p>Two original Bash utilities for read-only local deployment preflight and Dockerfile hygiene. Preserved before fork cleanup.</p>
-      <sub>Focus: practical CLI diagnostics</sub>
-    </td>
-    <td valign="top">
-      <h3>07 · <a href="./labs/platform-operations-playbook/">Platform Operations Playbook</a></h3>
-      <p>Production-safe-first runbooks for Kubernetes, OCI, Terraform, Jenkins and incident response, with reusable review templates.</p>
-      <sub>Focus: operational engineering knowledge</sub>
-    </td>
-  </tr>
+<tr>
+<td width="33%" valign="top">
+
+**01 / BUILD**
+
+Infrastructure as code, cloud platforms, containers and Kubernetes environments.
+
+</td>
+<td width="33%" valign="top">
+
+**02 / DELIVER**
+
+Automated CI/CD, deployment validation and predictable release workflows.
+
+</td>
+<td width="34%" valign="top">
+
+**03 / OPERATE**
+
+Observability, troubleshooting, secure defaults and production readiness.
+
+</td>
+</tr>
 </table>
 
-**[Explore the DevOps Lab →](./labs/)** · [View test workflow](./.github/workflows/labs-tests.yml)
+## From code to confidence
 
-> **Scope note:** The analyzers are educational local heuristics; the runbooks are engineering guidance. None is a production security certification, a live infrastructure assessment, or proof of work performed for a particular employer. Do not upload cloud credentials or customer data.
+<img src="./assets/engineering-lifecycle.svg" width="100%" alt="Engineering lifecycle: plan, provision, build, deploy, observe, improve" />
 
-## Toolbox
+**Repeatability** &nbsp; / &nbsp; **Least privilege** &nbsp; / &nbsp; **Operational clarity** &nbsp; / &nbsp; **Evidence-driven decisions**
+
+The goal isn't simply to ship a release. It's to make the next deployment, incident response and handover easier to execute and trust.
+
+## Featured original work
+
+**7 original collections** housed inside this profile repository: **5 Python tools**, **1 Bash utilities collection**, and **1 platform operations handbook**. These are real source directories, not seven separate standalone repositories.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 01 · [Release Snapshot Checker](./labs/release-snapshot-checker/)
+
+**Pre-release clarity for Kubernetes.**
+
+Offline review of Deployment snapshots: image tags, expected replicas and readiness signals.
+
+<sub>PYTHON / KUBERNETES / RELEASE REVIEW</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 02 · [Kube Drift Diff](./labs/kube-drift-diff/)
+
+**See drift, not private values.**
+
+Compare desired and observed Kubernetes specifications with redacted reporting.
+
+<sub>PYTHON / CONFIGURATION / DRIFT</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 03 · [Dockerfile Doctor](./labs/dockerfile-doctor/)
+
+**Better container build habits.**
+
+Identify selected Dockerfile hygiene patterns related to bases, users and install steps.
+
+<sub>PYTHON / DOCKER / HYGIENE</sub>
+
+</td>
+<td valign="top">
+
+### 04 · [Terraform Risk Radar](./labs/terraform-risk-radar/)
+
+**Review common IaC risk patterns.**
+
+Spot selected text patterns around public exposure, credential literals and TLS.
+
+<sub>PYTHON / TERRAFORM / STATIC REVIEW</sub>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 05 · [Actions Workflow Guard](./labs/actions-workflow-guard/)
+
+**Practical CI workflow review.**
+
+Inspect common GitHub Actions patterns: permissions, action references and triggers.
+
+<sub>PYTHON / ACTIONS / AUTOMATION</sub>
+
+</td>
+<td valign="top">
+
+### 06 · [Shell Ops Starter](./labs/shell-ops-starter/)
+
+**Useful commands, safe by default.**
+
+Two original Bash utilities for local deployment preflight and Dockerfile checks, with smoke tests.
+
+<sub>BASH / PREFLIGHT / DIAGNOSTICS</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 07 · [Platform Operations Playbook](./labs/platform-operations-playbook/)
+
+**Operational knowledge you can reuse.**
+
+Read-only-first guidance and templates spanning Kubernetes upgrades, OCI reviews, Terraform changes, Jenkins hygiene, incidents and production readiness.
+
+<sub>KUBERNETES / OCI / TERRAFORM / JENKINS / RUNBOOKS</sub>
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-**Cloud · Containers · Infrastructure**
+**[EXPLORE ALL ORIGINAL ENGINEERING WORK →](./labs/)**
 
-![OCI](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+</div>
+
+> **Scope matters:** The analyzers use offline heuristics; the Bash tools are educational, local checks; and the handbook provides example guidance. None is a production security certification, a live assessment, or evidence of work performed for a named employer. Never upload production credentials or customer data.
+
+## Engineering stack
+
+<div align="center">
+
+**CLOUD / CONTAINERS / INFRASTRUCTURE**
+
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 
-**Delivery · Automation · Operations**
+**DELIVERY / AUTOMATION / OPERATIONS**
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
-## Quality, not just presentation
+## Quality is part of the work
 
-The tools are deliberately small enough to inspect. Their sample fixtures and tests make behavior reproducible. The playbook documents assumptions and stop conditions rather than inventing production incidents.
-
-Run the five Python test suites and Bash smoke tests from the repository root:
+The executable tools include synthetic examples and tests. Run the five Python test suites and the Bash smoke tests locally from the repository root:
 
 ```bash
+git clone https://github.com/svrforge/svrforge.git
+cd svrforge
+
 for d in release-snapshot-checker kube-drift-diff dockerfile-doctor terraform-risk-radar actions-workflow-guard; do
   (cd "labs/$d" && python -m unittest discover -s tests -v) || exit 1
 done
+
 bash labs/shell-ops-starter/tests/smoke.sh
 ```
 
-The [Python test workflow](./.github/workflows/labs-tests.yml) and [Bash smoke workflow](./.github/workflows/shell-ops-tests.yml) cover the executable tools. Python's standard library is sufficient for the five Python projects.
+[**Python CI**](./.github/workflows/labs-tests.yml) · [**Bash CI**](./.github/workflows/shell-ops-tests.yml) · [**Contribution guide**](./CONTRIBUTING.md) · [**Security policy**](./SECURITY.md)
 
-## Collaborate
+## Connect & collaborate
 
-I welcome clear bug reports, focused improvements and practical engineering discussions — especially around Kubernetes, OCI, CI/CD, infrastructure automation, reliability and tooling.
+Interested in **DevOps, SRE, OCI, Kubernetes, platform tooling, cloud automation, developer experience or modern web engineering**? I welcome focused project feedback, technical discussion and collaboration.
 
-**[Browse the source](./labs/)** · **[Fork cleanup inventory](./FORK-CLEANUP.md)** · **[Open an issue](https://github.com/svrforge/svrforge/issues)** · **[Contributing guide](./CONTRIBUTING.md)** · **[Security policy](./SECURITY.md)**
-
-Please do not share secrets, customer details or private production configurations in issues or example files.
+**[GitHub profile](https://github.com/svrforge)** &nbsp; · &nbsp; **[Browse code](./labs/)** &nbsp; · &nbsp; **[Open an issue](https://github.com/svrforge/svrforge/issues)**
 
 ---
 
 <div align="center">
 
-**SVR FORGE**  
-*Build with intent. Verify with evidence. Operate with confidence.*
+### SVR FORGE
+
+**DESIGN FOR RELIABILITY. AUTOMATE WITH PURPOSE.**
 
 <sub>Vignesh Raja Sundararajan · <a href="https://github.com/svrforge">@svrforge</a> · Independent DevOps & Platform Engineering</sub>
 
