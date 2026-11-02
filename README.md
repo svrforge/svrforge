@@ -1,63 +1,95 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" alt="SVR Forge | Vignesh Raja Sundararajan | DevOps & Platform Engineering" width="100%"/>
+<img src="./assets/profile-hero.svg" alt="SVR Forge — Vignesh Raja Sundararajan | DevOps, SRE and Platform Engineering" width="100%" />
 
-### Cloud infrastructure. Reliable delivery. Practical open-source engineering.
+<br />
 
-**SVR Forge** — an independent engineering identity for infrastructure, developer productivity and trustworthy automation.
+**Engineering reliable infrastructure, repeatable delivery and useful developer tools.**
 
 [![DevOps Lab CI](https://github.com/svrforge/svrforge/actions/workflows/labs-tests.yml/badge.svg)](https://github.com/svrforge/svrforge/actions/workflows/labs-tests.yml)
-[![Original tools](https://img.shields.io/badge/original%20tools-5-28b5ae?style=flat-square)](./labs/)
-[![Open source](https://img.shields.io/badge/license-MIT-176b78?style=flat-square)](./LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-svrforge-182b42?style=flat-square&logo=github)](https://github.com/svrforge)
+[![Tools](https://img.shields.io/badge/original%20DevOps%20tools-5-64E3CD?style=flat-square&labelColor=102034)](./labs/)
+[![License](https://img.shields.io/badge/license-MIT-86ADFF?style=flat-square&labelColor=102034)](./LICENSE)
+[![GitHub](https://img.shields.io/badge/%40svrforge-GitHub-DAE8FA?style=flat-square&logo=github&labelColor=102034)](https://github.com/svrforge)
+
+[About](#about) · [Engineering focus](#engineering-focus) · [Original projects](#original-projects) · [Toolbox](#toolbox) · [Collaborate](#collaborate)
 
 </div>
 
-## About me
+---
 
-**Professional headline:** DevOps & Platform Engineer | OCI, Kubernetes, Terraform & CI/CD | Building SVR Forge open-source tools
+## About
 
+Hi, I'm **Vignesh Raja Sundararajan** — a **DevOps & Platform Engineer with 3+ years of experience** working across cloud infrastructure, Kubernetes, CI/CD and production operations.
 
-I'm **Vignesh Raja Sundararajan**, a **DevOps & Platform Engineer (3+ years)** focused on cloud infrastructure, Kubernetes, CI/CD and reliable delivery operations.
+**SVR Forge** is my independent engineering identity: a place to build, document and share practical automation. I care about systems that are **reproducible, observable, maintainable and secure by default** — not just impressive screenshots.
 
-My primary work is in **DevOps, SRE and Platform Engineering**. I also explore **developer productivity tools, automation and web experiences**. I prefer small, understandable tools that solve an actual workflow over impressive-looking demos with no clear use.
+My principal focus is **DevOps, Site Reliability Engineering and Platform Engineering**. I also work with developer tooling and modern web experiences.
 
-- **Infrastructure:** Oracle Cloud Infrastructure (OCI), Kubernetes, Docker, Terraform
-- **Delivery:** Jenkins, GitHub Actions, Git, CI/CD and release workflows
-- **Operations:** Production troubleshooting, deployment validation, observability and operational security
-- **Currently exploring:** Offline-first developer tooling and AI-assisted engineering workflows
-- **Also interested in:** Modern web development and interface design
+> **My approach:** Simplify the workflow. Automate the repeatable work. Verify the result. Make operations understandable.
 
-> Design for reliability. Automate the repetitive. Make the evidence visible.
+## Engineering focus
 
-## SVR Forge · Original Projects
-
-The five **SVR Forge** projects below were written as **independent learning utilities** for engineers. They're currently separate folders in this public profile repository—not yet separate GitHub repositories. Each includes code, examples, documentation and unit tests.
-
-| Project | Engineering problem | Focus |
+| **01 · Cloud & platforms** | **02 · Automation & delivery** | **03 · Reliability & security** |
 | :--- | :--- | :--- |
-| **[Release Snapshot Checker](./labs/release-snapshot-checker/)** | Review Kubernetes deployment snapshots before release | Deployments, image tags, replicas, readiness |
-| **[Kube Drift Diff](./labs/kube-drift-diff/)** | Compare desired and observed Kubernetes specs | Drift detection without displaying field values |
-| **[Dockerfile Doctor](./labs/dockerfile-doctor/)** | Find common container build hygiene issues | Base images, USER, risky install patterns |
-| **[Terraform Risk Radar](./labs/terraform-risk-radar/)** | Review common risky infrastructure-as-code patterns | CIDRs, credential literals, TLS settings |
-| **[Actions Workflow Guard](./labs/actions-workflow-guard/)** | Review GitHub Actions workflow hygiene | Permissions, action pins, workflow triggers |
+| OCI, Kubernetes, Docker and Infrastructure as Code | Jenkins, GitHub Actions, Terraform and release workflows | Deployment validation, troubleshooting, observability and practical security checks |
+| Design for repeatability and operational clarity | Reduce manual steps and build confidence in releases | Prefer least privilege, evidence-based checks and safe rollback plans |
 
-**[Explore the complete DevOps Lab, run commands and test instructions](./labs/)**
+**The engineering loop:** `Plan → Build → Validate → Deliver → Observe → Improve`
 
-> These tools are educational, read-only, offline heuristics—not production security certifications or replacements for specialist scanners. No cloud credentials are required.
+## Original projects
 
-## Engineering toolkit
+These are **five original, small, offline-first DevOps utilities** maintained in this repository. Each has source code, examples, a dedicated README and unit tests. They are independent learning tools, not copied fork showcases.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 · <a href="./labs/release-snapshot-checker/">Release Snapshot Checker</a></h3>
+      <p>Review Kubernetes Deployment snapshots before a release: image tags, expected replicas and readiness signals.</p>
+      <sub>Focus: Kubernetes release reviews</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 · <a href="./labs/kube-drift-diff/">Kube Drift Diff</a></h3>
+      <p>Compare desired and observed Kubernetes specifications while avoiding exposure of field values in the report.</p>
+      <sub>Focus: configuration drift</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>03 · <a href="./labs/dockerfile-doctor/">Dockerfile Doctor</a></h3>
+      <p>Spot common Dockerfile hygiene patterns involving base images, user selection and installation steps.</p>
+      <sub>Focus: container hygiene</sub>
+    </td>
+    <td valign="top">
+      <h3>04 · <a href="./labs/terraform-risk-radar/">Terraform Risk Radar</a></h3>
+      <p>Highlight selected IaC patterns involving network exposure, embedded credentials and TLS settings.</p>
+      <sub>Focus: infrastructure review</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>05 · <a href="./labs/actions-workflow-guard/">Actions Workflow Guard</a></h3>
+      <p>Check common GitHub Actions workflow hygiene issues, including permissions, action references and event triggers.</p>
+      <sub>Focus: CI/CD workflow review</sub>
+    </td>
+  </tr>
+</table>
+
+**[Explore the DevOps Lab →](./labs/)** · [View test workflow](./.github/workflows/labs-tests.yml)
+
+> **Scope note:** These are educational, local, read-only heuristic checkers. They do not authenticate to cloud accounts and are not substitutes for dedicated security scanners, live runtime inspection or production change-control reviews.
+
+## Toolbox
 
 <div align="center">
 
-**Cloud & infrastructure**
+**Cloud · Containers · Infrastructure**
 
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![OCI](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 
-**Automation & delivery**
+**Delivery · Automation · Operations**
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -67,24 +99,35 @@ The five **SVR Forge** projects below were written as **independent learning uti
 
 </div>
 
-## How I work
+## Quality, not just presentation
 
-**Build:** Minimal, reproducible examples that you can understand and run locally.
+The tools are deliberately small enough to inspect. Their example fixtures and tests help make their behavior understandable.
 
-**Verify:** Automated checks, observable behavior, documented limitations and safe defaults.
+Run the five unit-test suites from the repository root:
 
-**Collaborate:** Actionable issue reports, focused pull requests and respectful feedback.
+```bash
+for d in labs/*/; do
+  (cd "$d" && python -m unittest discover -s tests -v) || exit 1
+done
+```
 
-## Open source & collaboration
+The [DevOps Lab CI workflow](./.github/workflows/labs-tests.yml) runs these tests for changes to the lab. Python's standard library is sufficient for the five tools.
 
-Interested in DevOps, SRE, Kubernetes, OCI, platform tooling or AI developer workflows? Feel free to [open a discussion through GitHub issues](https://github.com/svrforge/svrforge/issues) or explore the [source code](./labs/).
+## Collaborate
 
-Contributions welcome. Please review [Contributing](./CONTRIBUTING.md), [Security](./SECURITY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
+I welcome clear bug reports, focused improvements and practical engineering discussions — especially around Kubernetes, OCI, CI/CD, infrastructure automation, reliability and tooling.
+
+**[Browse the source](./labs/)** · **[Open an issue](https://github.com/svrforge/svrforge/issues)** · **[Contributing guide](./CONTRIBUTING.md)** · **[Security policy](./SECURITY.md)**
+
+Please do not share secrets, customer details or private production configurations in issues or example files.
+
+---
 
 <div align="center">
 
-**SVR Forge · Vignesh Raja Sundararajan · @svrforge**
+**SVR FORGE**  
+*Build with intent. Verify with evidence. Operate with confidence.*
 
-*Reliable systems. Thoughtful automation. Useful software.*
+<sub>Vignesh Raja Sundararajan · <a href="https://github.com/svrforge">@svrforge</a> · Independent DevOps & Platform Engineering</sub>
 
 </div>
