@@ -1,27 +1,37 @@
-# SVR Forge — DevOps Lab
+# SVR Forge — Original Engineering Work
 
-**SVR Forge** is a personal engineering and open-source lab by **Vignesh Raja Sundararajan**. These original, offline-first DevOps utilities are designed for learning and review. These five projects are hosted as independent directories in the existing public profile repository until they are split into separate repositories. They are **not** GitHub forks.
+A collection of **independently authored** DevOps learning utilities and platform-operation reference material by **Vignesh Raja Sundararajan**. All work currently lives in project folders within the GitHub profile repository rather than in standalone repositories.
 
-| Project | Focus | Run |
-|---|---|---|
-| [release-snapshot-checker](release-snapshot-checker/) | Offline Kubernetes Deployment release checks | `python tool.py examples/deployment.json --strict` |
-| [kube-drift-diff](kube-drift-diff/) | Redacted Kubernetes desired-vs-actual spec comparison | `python tool.py examples/desired.json examples/actual.json` |
-| [dockerfile-doctor](dockerfile-doctor/) | Offline Dockerfile hygiene hints | `python tool.py examples/Dockerfile` |
-| [terraform-risk-radar](terraform-risk-radar/) | Terraform text-based risk-pattern review | `python tool.py examples/main.tf` |
-| [actions-workflow-guard](actions-workflow-guard/) | Offline GitHub Actions workflow hygiene checks | `python tool.py examples/workflow.yml` |
+## Original Python tools
 
-Every project includes a README, code, unit tests and small example files. They use only the Python standard library and require no cloud credentials. A sample checker finding is not proof of a vulnerability.
+| Project | Purpose | Example |
+| :--- | :--- | :--- |
+| [release-snapshot-checker](release-snapshot-checker/) | Offline Kubernetes Deployment readiness hints | `python tool.py examples/deployment.json --strict` |
+| [kube-drift-diff](kube-drift-diff/) | Redacted desired-vs-actual spec changes | `python tool.py examples/desired.json examples/actual.json` |
+| [dockerfile-doctor](dockerfile-doctor/) | Common Dockerfile build hygiene patterns | `python tool.py examples/Dockerfile` |
+| [terraform-risk-radar](terraform-risk-radar/) | Selected offline IaC anti-patterns | `python tool.py examples/main.tf` |
+| [actions-workflow-guard](actions-workflow-guard/) | GitHub Actions workflow hygiene rules | `python tool.py examples/workflow.yml` |
 
-### Running all tests
+## Additional original work
+
+| Collection | What's inside |
+| :--- | :--- |
+| [shell-ops-starter](shell-ops-starter/) | Two original Bash utilities migrated out of a forked repo, plus smoke tests |
+| [platform-operations-playbook](platform-operations-playbook/) | Kubernetes/OCI/Terraform/Jenkins runbooks, incident framework and review templates |
+
+## Test the tools
 
 ```bash
-for d in labs/*/; do (cd "$d" && python -m unittest discover -s tests -v) || exit 1; done
+for d in release-snapshot-checker kube-drift-diff dockerfile-doctor terraform-risk-radar actions-workflow-guard; do
+  ( cd "labs/$d" && python -m unittest discover -s tests -v ) || exit 1
+done
+bash labs/shell-ops-starter/tests/smoke.sh
 ```
 
-### Contribution policy
+Run these commands from the **repository root**. Python tools use the Python standard library; Bash utilities require Bash. None require cloud credentials or perform deployments.
 
-Contribute clear, scoped bug reports and focused tests. Never upload production secrets, customer data or private infrastructure manifests.
+## Scope and responsible use
 
-### License
+The tools are heuristics and may produce false positives, false negatives or incomplete results. The playbook is educational guidance, **not evidence of completed production incidents or audits**. Never commit or post private infrastructure exports, production credentials or customer data. Contributions should include reproducible, synthetic examples.
 
-See [MIT LICENSE](LICENSE).
+License: [MIT](../LICENSE). See [contribution guidelines](../CONTRIBUTING.md) and [security policy](../SECURITY.md).

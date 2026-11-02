@@ -1,4 +1,5 @@
-name: DevOps Lab unit tests
+name: DevOps Lab Python unit tests
+
 on:
   push:
     paths:
@@ -8,19 +9,24 @@ on:
     paths:
       - 'labs/**'
       - '.github/workflows/labs-tests.yml'
+  workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test five original tools
+      - name: Test five Python tools
+        shell: bash
         run: |
-          set -e
-          for d in labs/*/; do
-            (cd "$d" && python -m unittest discover -s tests -v)
+          set -euo pipefail
+          for d in release-snapshot-checker kube-drift-diff dockerfile-doctor terraform-risk-radar actions-workflow-guard; do
+            (cd "labs/$d" && python -m unittest discover -s tests -v)
           done
