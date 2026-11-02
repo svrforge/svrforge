@@ -1,0 +1,8 @@
+name: demo
+on: push
+permissions: write-all
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4

@@ -1,0 +1,26 @@
+name: DevOps Lab unit tests
+on:
+  push:
+    paths:
+      - 'labs/**'
+      - '.github/workflows/labs-tests.yml'
+  pull_request:
+    paths:
+      - 'labs/**'
+      - '.github/workflows/labs-tests.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test five original tools
+        run: |
+          set -e
+          for d in labs/*/; do
+            (cd "$d" && python -m unittest discover -s tests -v)
+          done
