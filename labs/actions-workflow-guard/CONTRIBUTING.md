@@ -8,4 +8,4 @@ Thanks for supporting this original open-source learning tool.
 4. Include unit tests for new rules and update the README for changed behavior.
 5. Do not submit cloud credentials, customer data or other confidential material.
 
-By contributing, you agree to respectful, constructive collaboration. See the parent project's [Code of Conduct](https://github.com/devopsvikki/devopsvikki/blob/main/CODE_OF_CONDUCT.md).
+By contributing, you agree to respectful, constructive collaboration. See the parent project's [Code of Conduct](https://github.com/svrforge/devopsvikki/blob/main/CODE_OF_CONDUCT.md).
